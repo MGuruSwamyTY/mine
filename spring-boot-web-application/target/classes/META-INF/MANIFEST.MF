@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: gurusm
+Build-Jdk: 11.0.4
+Implementation-Title: student-services
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.in28minutes.springboot
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/student-services-security
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: gurusm
+Build-Jdk: 11.0.4
+Implementation-Title: spring-boot-tutorial-soap-web-services
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.in28minutes.springboot.soap.web.services.e
+ xample
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-boot-tutorial-soap-web-services
+Created-By: Maven Integration for Eclipse
+

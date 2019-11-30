@@ -1,0 +1,15 @@
+div{
+    color: lightcyan;
+    background-image: url("https://cdn.pixabay.com/photo/2019/08/13/02/03/night-4402380__340.jpg")
+}
+div{
+    color: white;
+}
+input.ng-invalid.ng-touched{
+
+border: 1px solid red
+
+}
+input.ng-valid.ng-touched{
+    border:1px solid green
+}

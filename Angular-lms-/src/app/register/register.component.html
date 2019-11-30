@@ -1,0 +1,43 @@
+
+<div class="col-md-4 offset-md-4 mt-2 card card-body bg-dark">
+    <h2 class = text-center>Register!!!!</h2>
+    <form action=""#form="ngForm" (ngSubmit)="print(form)">
+        <div class="form-group">
+            <!-- <label for="">Name</label> -->
+            <input type="name" class="form-control" name="name" #email="ngModel" ngModel required id="name" placeholder="enater your name">
+       
+            <div *ngIf="email.invalid && email.touched">
+                <p class="text-danger" *ngIf = "email.errors.required">this fields is required</p>
+            </div>
+          </div>
+    <div class="form-group">
+      <!-- <label for="">Email</label> -->
+      <input type="email" class="form-control" name="email" #email="ngModel" ngModel required id="email" placeholder="enater your email id">
+ 
+      <div *ngIf="email.invalid && email.touched">
+          <p class="text-danger" *ngIf = "email.errors.required">this fields is required</p>
+      </div>
+    </div>
+    <div class="form-group">
+        <!-- <label for="">Contact No.</label> -->
+        <input type="number" class="form-control" name="contact" #number="ngModel" ngModel required id="cnumber" placeholder="enater your Contact Number">
+   
+       
+      </div>
+    <div class="form-group">
+        <!-- <label for="">Password</label> -->
+        <input type="password" class="form-control" name="password" #password="ngModel" ngModel required id="password" placeholder="enater your password id">
+   
+        <div *ngIf="password.invalid && password.touched">
+            <p class="text-danger" *ngIf = "password.errors.required">this fields is required</p>
+        </div>
+      </div>
+      
+
+        <button type="submit" class="btn btn-outline btn-primary" style="margin:15px;">Submit</button>
+        <button type="reset" class="btn btn-outline btn-danger">Reset</button>
+
+      
+    </form>
+   
+</div>
